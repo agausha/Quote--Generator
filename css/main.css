@@ -33,5 +33,6 @@ body {
 
 .quote-container {
   width: auto;
+  max-width: 90rem;
 }
 /*# sourceMappingURL=main.css.map */
