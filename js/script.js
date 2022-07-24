@@ -1,0 +1,1 @@
+const quoteContainer = document.getElementById('quote-container');
