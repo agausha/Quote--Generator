@@ -95,4 +95,8 @@ button:active {
   -webkit-box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
           box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
 }
+
+.twitter-button:hover {
+  color: #39a3f3;
+}
 /*# sourceMappingURL=main.css.map */
