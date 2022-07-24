@@ -6,3 +6,13 @@ $color-primary-white: hsl(0, 0%, 100%);
 $color-primary-whit-smoke: hsl(0, 0%, 95%);
 $color-primary-cyan-blue: hsl(206, 89%, 59%);
 $color-primary-dark-gray: hsl(0, 0%, 20%);
+
+/////////////////////////////////////////
+// CSS RESET
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
