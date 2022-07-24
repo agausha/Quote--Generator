@@ -16,3 +16,7 @@ $color-primary-dark-gray: hsl(0, 0%, 20%);
     padding: 0;
     border: 0;
 }
+
+html {
+  box-sizing: border-box;
+}
