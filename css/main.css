@@ -62,5 +62,8 @@ body {
 
 .button-container {
   margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
