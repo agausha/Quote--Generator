@@ -31,7 +31,9 @@ async function getQuote() {
 }
 
 // Tweet Quote
-function tweetQuote() {}
+function tweetQuote() {
+  const quote = quoteText.textContent;
+}
 
 // Event Listeners
 newQuoteBtn.addEventListener('click', getQuote);
