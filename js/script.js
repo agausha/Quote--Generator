@@ -12,7 +12,12 @@ function showLoadingSpinner() {
 }
 
 // Hide Loading
-function removeLoadingSpinner() {}
+function removeLoadingSpinner() {
+  if (!loader.hidden) {
+    quoteContainer.hidden = false;
+    loader.hidden = true;
+  }
+}
 
 // Get Quote from API
 async function getQuote() {
