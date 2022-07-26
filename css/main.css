@@ -114,7 +114,17 @@ button:active {
           animation: spin 2s linear infinite;
 }
 
-@-webkit-keyframes spin {}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
 
-@keyframes spin {}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
 /*# sourceMappingURL=main.css.map */
