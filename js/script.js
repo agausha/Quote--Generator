@@ -24,7 +24,8 @@ async function getQuote() {
       } else {
         quoteText.classList.remove('long-quote');
       }
-  } catch {
-
+      quoteText.textContent = data.quoteText;
+  } catch (error) {
+      getQuote();
   }
 }
