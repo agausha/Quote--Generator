@@ -6,7 +6,10 @@ const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
 
 // Show Loader
-function showLoadingSpinner() {}
+function showLoadingSpinner() {
+  loader.hidden = false;
+  quoteContainer.hidden = true;
+}
 
 // Get Quote from API
 async function getQuote() {
