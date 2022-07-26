@@ -6,4 +6,6 @@ const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
 
 // Get Quote from API
-async function getQuote() {}
+async function getQuote() {
+  const proxyUrl = 'https://whispering-tor-04671.herokuapp.com/'
+}
