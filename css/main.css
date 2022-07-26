@@ -110,5 +110,7 @@ button:active {
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
 }
 /*# sourceMappingURL=main.css.map */
