@@ -4,3 +4,6 @@ const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
+
+// Get Quote from API
+async function getQuote() {}
