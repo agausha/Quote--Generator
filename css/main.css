@@ -103,4 +103,8 @@ button:active {
 .fa-twitter {
   font-size: 1.5rem;
 }
+
+.loader {
+  border: 16px solid #f2f2f2;
+}
 /*# sourceMappingURL=main.css.map */
