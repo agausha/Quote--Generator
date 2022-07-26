@@ -29,3 +29,6 @@ async function getQuote() {
       getQuote();
   }
 }
+
+// On Load 
+getQuote();
