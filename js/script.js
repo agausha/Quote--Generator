@@ -18,6 +18,12 @@ async function getQuote() {
       } else {
         authorText.textContent = data.quoteAuthor;
       }
+      // Reduce font size for long quotes
+      if (data.quoteText.length > 120) {
+        quoteText.classList.add('long-quote');
+      } else {
+        quoteText.classList.remove('long-quote');
+      }
   } catch {
 
   }
