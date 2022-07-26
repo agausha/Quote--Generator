@@ -113,4 +113,8 @@ button:active {
   -webkit-animation: spin 2s linear infinite;
           animation: spin 2s linear infinite;
 }
+
+@-webkit-keyframes spin {}
+
+@keyframes spin {}
 /*# sourceMappingURL=main.css.map */
