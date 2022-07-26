@@ -30,6 +30,9 @@ async function getQuote() {
   }
 }
 
+// Tweet Quote
+function tweetQuote() {}
+
 // Event Listeners
 newQuoteBtn.addEventListener('click', getQuote);
 
