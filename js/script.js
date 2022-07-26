@@ -33,6 +33,7 @@ async function getQuote() {
 // Tweet Quote
 function tweetQuote() {
   const quote = quoteText.textContent;
+  const author = authorText.textContent;
 }
 
 // Event Listeners
