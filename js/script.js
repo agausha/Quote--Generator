@@ -11,6 +11,9 @@ function showLoadingSpinner() {
   quoteContainer.hidden = true;
 }
 
+// Hide Loading
+function removeLoadingSpinner() {}
+
 // Get Quote from API
 async function getQuote() {
   const proxyUrl = 'https://whispering-tor-04671.herokuapp.com/';
