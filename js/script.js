@@ -5,6 +5,9 @@ const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
 
+// Show Loader
+function showLoadingSpinner() {}
+
 // Get Quote from API
 async function getQuote() {
   const proxyUrl = 'https://whispering-tor-04671.herokuapp.com/';
