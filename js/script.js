@@ -40,8 +40,6 @@ async function getQuote() {
         quoteText.classList.remove('long-quote');
       }
       quoteText.textContent = data.quoteText;
-      // Stop Loader, Show Quote
-      removeLoadingSpinner();
   } catch (error) {
       getQuote();
   }
